@@ -29,7 +29,7 @@ class DrugSearchViewSet(viewsets.ModelViewSet):
         # plt.show()
 
 
-    # /api/DrugIntro/getCountryYearNum/
+    # /DIP/DrugIntro/getCountryYearNum/
     # 取得一個國家每年的吸毒人數
     @action(detail=False, methods=['post'])
     def getCountryYearNum(self, request):
@@ -53,7 +53,7 @@ class DrugSearchViewSet(viewsets.ModelViewSet):
         return JsonResponse({'id':country_id,'img':self.imgUrl + imgName}, safe=False)  # 回傳圖片路徑
         # return JsonResponse(serializer.data,safe=False)  # 為了允許非 dict 對像被序列化，將安全參數設置為 False
 
-    # /api/DrugIntro/getAgeNum/
+    # /DIP/DrugIntro/getAgeNum/
     # 取得一個國家每年的吸毒人數，依年齡層區分
     @action(detail=False, methods=['post'])
     def getAgeNum(self, request):
@@ -88,7 +88,7 @@ class DrugSearchViewSet(viewsets.ModelViewSet):
         # return JsonResponse(serializer.data,safe=False)  # 為了允許非 dict 對像被序列化，將安全參數設置為 False
 
 
-    # /api/DrugIntro/getGenderNum/
+    # /DIP/DrugIntro/getGenderNum/
     # 取得一個國家每年的吸毒人數，依性別區分
     @action(detail=False, methods=['post'])
     def getGenderNum(self, request):
@@ -127,7 +127,7 @@ class DrugSearchViewSet(viewsets.ModelViewSet):
         # return JsonResponse(serializer.data,safe=False)  # 為了允許非 dict 對像被序列化，將安全參數設置為 False
 
 
-    # /api/DrugIntro/getDrugTypeNum/
+    # /DIP/DrugIntro/getDrugTypeNum/
     # 取得一個國家每年的吸毒人數，依毒品種類區分
     @action(detail=False, methods=['post'])
     def getDrugTypeNum(self, request):

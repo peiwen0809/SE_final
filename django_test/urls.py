@@ -16,7 +16,6 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from django.urls import path, include
-from musics.views import hello
 from search.views import index
 from rest_framework.routers import DefaultRouter
 from DrugIntro.views import DrugIntroViewSet
@@ -29,9 +28,8 @@ router.register(r'DrugSearch', DrugSearchViewSet, basename='common')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^hello/', hello),
     url(r'^show/', index),
     # path("api/news/", include("search.urls")),
-    url(r'^api/', include(router.urls)),
-    url(r'^drugInfo/', drugInfo),
+    url(r'^DIP/', include(router.urls)),  #DIP：Drug Information Paltform
+    url(r'^drugInfo/', drugInfo),  # 測試接前端
 ]

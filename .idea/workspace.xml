@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea8443f6-8c6f-4610-838d-18aee75ebc2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0f293e47-2a45-4256-a14f-0a7f350897ff.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0f293e47-2a45-4256-a14f-0a7f350897ff.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DrugIntro/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrugIntro/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DrugIntro/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrugIntro/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DrugIntro/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrugIntro/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_test/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_test/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/urls.py" afterDir="false" />
     </list>
