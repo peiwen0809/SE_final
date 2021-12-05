@@ -19,11 +19,13 @@ from django.urls import path, include
 from musics.views import hello
 from search.views import index
 from rest_framework.routers import DefaultRouter
-from DrugIntro import views
+from DrugIntro.views import DrugIntroViewSet
+from DrugSearch.views import DrugSearchViewSet
 from django_test.adapter import drugInfo
 
 router = DefaultRouter()
-router.register(r'DrugIntro', views.DrugIntroViewSet, basename='common')
+router.register(r'DrugIntro', DrugIntroViewSet, basename='common')
+router.register(r'DrugSearch', DrugSearchViewSet, basename='common')
 
 urlpatterns = [
     path('admin/', admin.site.urls),

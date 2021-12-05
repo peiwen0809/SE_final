@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'musics',
     'search',
     'rest_framework',
-    'DrugIntro'
+    'DrugIntro',
+    'DrugSearch',
 ]
 
 MIDDLEWARE = [
