@@ -5,7 +5,7 @@ class DrugIntroSerializer(serializers.ModelSerializer):
     class Meta:
         model = DrugIntro
         # fields = '__all__'
-        fields = ['id','name','eng_name','desc']
+        fields = ['id', 'ch_name', 'en_name']
         # id = serializers.IntegerField()
         # name = serializers.CharField(source='drug_name')
         # eng_name = serializers.CharField(source='drug_eng_name')

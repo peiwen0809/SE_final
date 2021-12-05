@@ -8,6 +8,6 @@ from DrugIntro.models import DrugIntro
 
 #列出欄位
 class ShowDrugInfo(admin.ModelAdmin):
-    list_display = ('id', 'name', 'eng_name', 'desc')
+    list_display = ('id', 'ch_name', 'en_name')
 
 admin.site.register(DrugIntro, ShowDrugInfo)  #admin/admin123
